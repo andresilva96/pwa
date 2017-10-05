@@ -2,11 +2,7 @@ let cacheName = 'notes-son-v.1.0.0';
 let filesToCache = [
     './',
     'index.html',
-    'css/colors.css',
-    'css/styles.css',
-    'js/array.observe.polyfill.js',
-    'js/object.observe.polyfill.js',
-    'js/scripts.js'
+    'js/script.js'
 ];
 
 self.addEventListener('install', function (e) {
